@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>FookedValidators</title>
+
+    <style type="text/css">
+
+      body {
+      text-align: center;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <img src="@Path['~/Content/nancy-logo.png']" alt="Nancy logo" /><br />
+    This view was rendered using the SuperSimpleViewEngine
+    <form method="POST">
+      <input type="text" name="firstname" />
+      <input type="text" name="lastname"/>
+      <input type="submit"/>
+    </form>
+  </body>
+</html>
